@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #23252C;
+    --sub-primary-color: #1A1B21;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.App {
+    background-color: #F5F5F5;
+    display: block;
+    margin: auto;
+    width: 24%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #D5D4D8;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0px 0px 10px 10px;
+}
